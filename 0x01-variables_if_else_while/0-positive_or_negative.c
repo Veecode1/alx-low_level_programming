@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * A program will assign a random number to
-	the variable n each time it is executed.
- * main - The Entry point of the function
- * @n - the variable to store different nums
+ * main - Entry point
  *
- * Return: Always 0 on suceess 
+ * Return: 0 if success.
  */
 
 int main(void)
@@ -23,8 +20,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero", n);
 	else
-		printf("%d is negetive", n);
+		printf("%d is negative", n);
 	printf("\n");
-
 	return (0);
 }
