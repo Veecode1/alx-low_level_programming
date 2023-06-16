@@ -7,18 +7,20 @@
 
 int main(void)
 {
-	int i;
-	char n;
+	int n;
 
-	for (i = 0; i <= 10; i++)
+	for (n = 0 ; n < 16 ; n++)
 	{
-		putchar(i + '0');
+		if (n < 10)
+		{
+			putchar('0' + n);
+		}
+		else
+		{
+			putchar(87 + n);
+		}
 	}
-	for (n = 'a'; n <= 'f'; n++)
-	{
-		putchar(n);
-	}
-
 	putchar('\n');
 	return (0);
 }
+
